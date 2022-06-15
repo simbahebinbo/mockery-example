@@ -5,8 +5,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/jaytaylor/mockery-example/mocks"
 	"github.com/stretchr/testify/mock"
+	"mockery-example/mocks"
 )
 
 func TestS3Mock(t *testing.T) {
